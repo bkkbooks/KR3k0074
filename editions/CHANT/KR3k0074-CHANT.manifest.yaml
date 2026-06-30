@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR3k0074/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3k0074/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 事始
+  identifiers:
+    krp: KR3k0074
+  tags:
+    kr-categories: KR3k
+  source:
+    repository: tls-texts
+    path: data/tls/KR3k0074.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3k0074_001-CHANT.yaml, hash: 'sha256:08ca2debe6f2fd9086b15d025da83f30f43eef6361c6c9538309b615182e1381'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3k0074_001-CHANT.markers.yaml, hash: 'sha256:29e57359be1962fe8cf50478d4680e00e1fb3c9c86f111432a313a3d916d2247'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3k0074_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 6939
+  label: 事始三卷
+  type: section
+  level: 1
+hash: sha256:7982e96d5fd02c63d002b531fe4549fa58d8f5509f4947ad4023a3421bed760d

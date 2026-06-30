@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR3k0074/v1
+canonical_location: https://kanripo.org/bkk/KR3k0074/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 事始
+  identifiers:
+    krp: KR3k0074
+  tags:
+    kr-categories: KR3k
+  source:
+    repository: tls-texts
+    path: data/tls/KR3k0074.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3k0074_001.yaml, hash: 'sha256:f1d209fe1586dbc81592976d08e040f9286739ceebb1183fd946cd41a5a275c8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3k0074_001.markers.yaml, hash: 'sha256:f672f8f672aa7b0cb40c7de945824721abd8ae34b8c5ddd13daf13bc7c78ca3f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3k0074_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 6939
+  label: 事始三卷
+  type: section
+  level: 1
+hash: sha256:f75a2873c4a81b557e976435081a207101d03e16a88ff9a01277966a83fd5778
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
